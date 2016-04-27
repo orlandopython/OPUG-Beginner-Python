@@ -62,7 +62,7 @@ class Student(Person):
         #Here we run the parent's str method and add to its result
         return super().__str__() + ' (Student)'
     
-    #We can make setter methods by using the property decorator
+    #We can make getter methods by using the property decorator
     #We are creating a property called obj.grade whose value is calculated
     #This is used in place of making a getGrade() method
     @property
